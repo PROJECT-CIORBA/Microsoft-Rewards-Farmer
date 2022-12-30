@@ -9,7 +9,6 @@ a = 0
 
 
 subprocess.call(['C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'])
-while a <= 11:
 while a <= 10:
     raw_list = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
     list = random.choice(raw_list)
