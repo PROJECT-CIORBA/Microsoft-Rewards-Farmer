@@ -25,7 +25,7 @@ while a <= 10:
     a += 1
 b = 0
 #Uses Bing (;-;), and does the same thing.
-while b <= 30:
+while b <= 10:
     #Opens the url.
     #Again, could've been written more efficiently.
     pyautogui.hotkey("ctrl", "t")
@@ -51,6 +51,6 @@ while b <= 30:
     pyautogui.hotkey('ctrl', 't')
     pyautogui.hotkey('ctrl', '1')
     pyautogui.hotkey('ctrl', 'w')
-    b += 3
+    b += 1
 #Closes the last tab, making the browser close.
 pyautogui.hotkey('ctrl', 'w')
