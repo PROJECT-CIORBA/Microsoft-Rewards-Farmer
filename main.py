@@ -12,7 +12,7 @@ subprocess.call(['C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe']
 #Searchs random letters 10 times.
 while a <= 10:
     #Probably could've been written more efficiently.
-    raw_list = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+    raw_list = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z', "1", "2", "3","4","5","6","7","8","9","0"]
     list = random.choice(raw_list)
     time.sleep(1)
     pyautogui.write(list)
@@ -43,7 +43,7 @@ while b <= 10:
     pyautogui.press('tab')
     time.sleep(1)
     #Same stuff as last time.
-    raw_list = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+    raw_list = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z', "1", "2", "3","4","5","6","7","8","9","0"]
     list = random.choice(raw_list)
     pyautogui.write(list)
     pyautogui.press('enter')
