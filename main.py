@@ -15,7 +15,11 @@ while a <= 10:
     raw_list = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z', "1", "2", "3","4","5","6","7","8","9","0"]
     list = random.choice(raw_list)
     time.sleep(1)
-    pyautogui.write(list)
+    ran_num = random.randrange(0,10)
+    c = 0
+    while c <= ran_num:
+        pyautogui.write(list)
+        c = c+1
     pyautogui.press('enter')
     time.sleep(1.5)
     #Browser shortcuts, my favourite.
@@ -45,7 +49,11 @@ while b <= 10:
     #Same stuff as last time.
     raw_list = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z', "1", "2", "3","4","5","6","7","8","9","0"]
     list = random.choice(raw_list)
-    pyautogui.write(list)
+    ran_num = random.randrange(0,10)
+    c = 0
+    while c <= ran_num:
+        pyautogui.write(list)
+        c = c+1
     pyautogui.press('enter')
     time.sleep(1.5)
     pyautogui.hotkey('ctrl', 't')
