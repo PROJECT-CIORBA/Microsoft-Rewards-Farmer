@@ -71,7 +71,7 @@ elif level == "2":
     subprocess.call(['C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'])
     a = 0
     #Uses Bing (;-;), and does the same thing.
-    while a <= 10:
+    while a <= 30:
         #Opens the url.
         #Again, could've been written more efficiently.
         pyautogui.hotkey("ctrl", "t")
