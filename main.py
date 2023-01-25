@@ -15,6 +15,9 @@ level = input("Please type in your level: ")
 if level == "1":
     # Opens Microsoft Edge, for obvious reasons.
     subprocess.call(['C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'])
+    print("If you see this, please click the Microsoft Edge window that just opened.")
+    print("There is a 5 second duration to click before the action starts.")
+    time.sleep(5)
     #Searchs random letters 10 times.
     while a <= 10:
         #Probably could've been written more efficiently.
@@ -69,7 +72,11 @@ if level == "1":
 elif level == "2":
     # Opens Microsoft Edge, for obvious reasons.
     subprocess.call(['C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'])
+    pyautogui.hotkey("alt", "tab", "tab")
     a = 0
+    print("If you see this, please click the Microsoft Edge window that just opened.")
+    print("There is a 5 second duration to click before the action starts.")
+    time.sleep(5)
     #Uses Bing (;-;), and does the same thing.
     while a <= 30:
         #Opens the url.
