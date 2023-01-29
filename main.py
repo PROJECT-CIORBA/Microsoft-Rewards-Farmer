@@ -78,7 +78,7 @@ elif level == "2":
     print("There is a 5 second duration to click before the action starts.")
     time.sleep(5)
     #Uses Bing (;-;), and does the same thing.
-    while a <= 90:
+    while a <= 34:
         #Opens the url.
         #Again, could've been written more efficiently.
         pyautogui.hotkey("ctrl", "t")
@@ -108,7 +108,7 @@ elif level == "2":
         pyautogui.hotkey('ctrl', 't')
         pyautogui.hotkey('ctrl', '1')
         pyautogui.hotkey('ctrl', 'w')
-        a += 3
+        a += 1
 else:
     print("Stop joking around.")
 #Closes the last tab, making the browser close.
